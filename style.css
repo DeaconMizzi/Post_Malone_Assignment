@@ -1,0 +1,29 @@
+body {
+    background-color: #2C2C2C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    border-style: solid; 
+    border-left-style: none;
+    border-right-style: none;
+    border-color: #E75B30;
+    background-color: #303030;
+    font-size:larger;
+}
+
+.outnow{
+    color: white;  
+}
+
+hr{
+    width: 50%;
+    height: 2px;
+    background-color: #E75B30;
+}
+
+.album{
+    height: 20em;
+    margin: auto;
+    border-style: solid;
+}
