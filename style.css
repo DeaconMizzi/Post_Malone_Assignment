@@ -31,3 +31,18 @@ hr{
 .underline{
     color: #E75B30;
 }
+
+.colDate{
+    background-color: #E75B30;
+    color: white;
+    text-align: center;
+}
+.colMain{
+    background-color: white;
+    color: #2C2C2C;
+    text-align: center;
+    
+}
+.colText{
+    margin: 1%;
+}
