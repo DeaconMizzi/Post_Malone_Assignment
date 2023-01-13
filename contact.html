@@ -18,8 +18,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item active mx-5">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item mx-5">
             <a class="nav-link" href="music.html">Music</a>
@@ -30,50 +30,53 @@
           <li class="nav-item mx-5">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item mx-5">
-            <a class="nav-link" href="contact.html">Contact</a>
+          <li class="nav-item active mx-5">
+            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </nav>
     <br>
+    <u class="underline"><h3 class="text-center outnow">Contact Us</h3></u>
     <br>
     <div class="container">
-      <img src="assets/Twelve Carat Toothache.png" alt="" class="img-fluid rounded mx-auto d-block" style="height: 50%;"> <br>
-      <h3 class="text-center outnow">Out Now!</h3>
-    </div>
-    <hr>
-    <h2 class="text-center outnow">Other Albums</h2>
-    <br><br>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <h4 class="text-center outnow">Hollywood's Bleeding</h4>
-            <img src="assets/hollywood.jpg" alt="" class="img-responsive center-block d-block mx-auto album">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <h4 class="text-center outnow">Beerbongs & Bentleys</h4>
-            <img src="assets/Beerbongs.jpg" alt="" class="img-responsive center-block d-block mx-auto album">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <h4 class="text-center outnow">Stoney</h4>
-            <img src="assets/Stoney.jpg" alt="" class="img-responsive center-block d-block mx-auto album">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <h4 class="text-center outnow">August 26th</h4> 
-            <img src="assets/august.png" alt="" class="img-responsive center-block d-block mx-auto album">
-          </div>
-        </div>
-      </div>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please enter your name.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please enter your surname.
+              </div>
+              <br>
+            </div>
+            <div class="col-md-12">
+                <label for="validationTextarea" class="form-label">Message</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Type your message..." required></textarea>
+                <div class="invalid-feedback">
+                    Please enter a message in the text area.
+                  </div>
+                <br>
+              </div>
+            <div class="col-md-12 d-flex justify-content-center align-content-center    ">
+              <button class="btn" type="submit">Submit form</button>
+            </div>
+        </form>
     </div>
     <!-- Optional JavaScript -->
+    <script src="scripts.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

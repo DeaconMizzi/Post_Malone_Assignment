@@ -46,3 +46,16 @@ hr{
 .colText{
     margin: 1%;
 }
+
+p{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+button{
+    background-color: #E75B30;
+    color: white;
+}
