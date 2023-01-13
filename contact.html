@@ -11,8 +11,11 @@
     <title>Post Malone</title>
   </head>
   <body>
-    <img src="assets/Post Malone Logo.png" alt="" class="img-fluid rounded mx-auto d-block">
+    <!--Logo-->
+    <img src="assets/Postlogo.png" alt="" class="img-fluid rounded mx-auto d-block">
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark">
+        <!--Code for collapsable menu and hamburger menu-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,6 +33,7 @@
           <li class="nav-item mx-5">
             <a class="nav-link" href="about.html">About</a>
           </li>
+          <!--active page-->
           <li class="nav-item active mx-5">
             <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
           </li>
@@ -39,14 +43,20 @@
     <br>
     <u class="underline"><h3 class="text-center outnow">Contact Us</h3></u>
     <br>
+    <!--Form-->
     <div class="container">
+        <!--Form needs validation-->
         <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-6">
+                <!--Label name-->
               <label for="validationCustom01" class="form-label">First name</label>
+              <!--input type set to text-->
               <input type="text" class="form-control" id="validationCustom01" value="" required>
+              <!--output under field if it is valid-->
               <div class="valid-feedback">
                 Looks good!
               </div>
+              <!--update under field if it is not valid-->
               <div class="invalid-feedback">
                 Please enter your name.
               </div>
@@ -62,6 +72,14 @@
               </div>
               <br>
             </div>
+            <div class="col-md-6">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required> 
+                <div class="invalid-feedback">
+                    Please enter your email.
+                  </div>
+                  <br>
+              </div>
             <div class="col-md-12">
                 <label for="validationTextarea" class="form-label">Message</label>
                 <textarea class="form-control" id="validationTextarea" placeholder="Type your message..." required></textarea>
@@ -70,12 +88,13 @@
                   </div>
                 <br>
               </div>
-            <div class="col-md-12 d-flex justify-content-center align-content-center    ">
+              <!--submit button which links to js script-->
+            <div class="col-md-12 d-flex justify-content-center align-content-center">
               <button class="btn" type="submit">Submit form</button>
             </div>
         </form>
     </div>
-    <!-- Optional JavaScript -->
+    <!--Validation JavaScript -->
     <script src="scripts.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
